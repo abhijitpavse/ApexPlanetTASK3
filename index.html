@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task 3 – ApexPlanet Internship</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Task 3 – ApexPlanet Internship</h1>
+    <p>Advanced Styling and JavaScript Projects</p>
+  </header>
+
+  <!-- ✅ Responsive Design Section -->
+  <section class="responsive-section">
+    <h2>📱 Responsive Design</h2>
+    <p>This section automatically adjusts to your screen size. Try resizing your browser or viewing it on different devices!</p>
+  </section>
+
+  <!-- ✅ Interactive Quiz Section -->
+  <section class="quiz-section">
+    <h2>🧠 Interactive Quiz</h2>
+    <div id="quiz">
+      <p id="question">Loading question...</p>
+      <ul id="answers"></ul>
+      <p id="quiz-result"></p>
+      <button id="next-btn" onclick="nextQuestion()">Next</button>
+      <p id="score"></p>
+    </div>
+  </section>
+
+  <!-- ✅ API Joke Generator Section -->
+  <section class="api-section">
+    <h2>😂 Joke Generator</h2>
+    <p>Click the button to get a random joke!</p>
+    <button onclick="getJoke()">Get a Joke</button>
+    <p id="joke"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
